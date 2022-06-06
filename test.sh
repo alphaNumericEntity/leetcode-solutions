@@ -5,7 +5,7 @@ cd   /Users/juan/Documents/code/java/leetcode-solutions/
 ORG=/Users/juan/Documents/code/java/leetcode-dusre/leetcode/java/
 
 #for i in `ls -l /Users/juan/Documents/code/java/leetcode-dusre/leetcode/java`
-for FILE in  ${ORG}*868*
+for FILE in  ${ORG}*.java
 do
 	f="$(basename -- $FILE)"
 	echo "$f"
